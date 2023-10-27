@@ -1,0 +1,91 @@
+
+
+h1, h2 {
+	text-align:center;
+	font-family: 'Bangers';
+}
+
+h1 {
+
+	font-size: 40px;
+	margin-bottom: 50px;
+	margin-top: 50px;
+}
+
+h2 {
+	font-size: 30px;
+}
+
+img {
+  border-radius: 50%;
+}
+
+body {
+  text-align:center;
+  background-color: #f3c9ff;
+  font-family: 'bangers';
+  color: rgb(79, 176, 255);
+  font-size: 12px;
+  line-height: 45px;
+}
+.welcome {
+  font-size: 35px;
+  font-weight: bold;
+  font-style: italic;
+  text-decoration: underline;
+}
+
+i {
+	font-size: 50px;
+	color: rgb(255, 255, 255);
+}
+
+.icons-inline {
+  margin: 0;
+  padding: 0;
+}
+
+.icons-inline li {
+  display: inline-block;
+  list-style-type: none;
+  align-content: center;
+  margin: 0 24px;
+}
+
+
+.white-card {
+  background-color: rgb(255, 243, 172);
+  padding: 15px;
+  margin: 15px 30px;
+  text-align: center;
+  box-shadow: 0px 4px 5px #c1c1c1;
+  border-radius:10px;
+  }
+
+  @media (min-width: 1200px) {
+.container {
+	width: 700px;
+	margin:20px auto;
+} }
+
+button {
+	border-radius: 5px;
+	border-color: rgb(255, 255, 255);
+	background-color: #f3c9ff;
+	font-size: 20px;
+	color: rgb(255, 255, 255);
+	font-family: 'Bangers', serif;
+	padding-top: 6px;
+  padding-bottom: 6px;
+  font-weight: bold;
+}
+
+button:hover{
+	color: rgb(254, 254, 169);
+	background-color: #e096f7;
+}
+
+i:hover{
+	color: #e096f7;
+	text-decoration: none;
+}
